@@ -11,24 +11,33 @@ import EventBind from './Components/EventBind'
 import ParentComponent from './Components/ParentComponent'
 import PersonList from './Components/PersonList'
 import Form from './Components/Form'
+import ClickCounter from'./Components/ClickCounter'
+import ClickCounterTwo from'./Components/ClickCounterTwo'
+import HoverCounter from'./Components/HoverCounter'
+import HoverCounterTwo from'./Components/HoverCounterTwo'
 
 
 const App = () => {
   return (
     <div className="App">
-      {/*<Message />*/ }
-      {/*<Greet firstName="Tsigabu" lastName="Birhanu"/>*/  }
-      {/*<p> Thanks for welcoming</p>*/ }
-      {/*<Greet firstName="Mitslal" lastName="Gebre"/>*/ } 
-      {/* <Welcome />*/ } 
-      {/*<Counter />*/}
-      {/*<OnClickFunction />*/}
-      {/*<OnClickClass />*/}
-      {/*<EventBind />*/}
+      {/*
+      <Message />
+      <Greet firstName="Tsigabu" lastName="Birhanu"/>
+      <p> Thanks for welcoming</p>
+      <Greet firstName="Mitslal" lastName="Gebre"/>
+       <Welcome />
+      <Counter />
+      <OnClickFunction />
+      <OnClickClass />
+      <EventBind /> 
       <Form />
       <ParentComponent />
       <PersonList />
-      
+    */}
+     <ClickCounter name='Vishwas' />
+     <ClickCounterTwo />
+     <HoverCounter /> 
+     <HoverCounterTwo />    
     </div>
   );
 }
